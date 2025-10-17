@@ -1,0 +1,51 @@
+# ========================
+# 🔧 Common (root level)
+# ========================
+node_modules/
+**/node_modules/
+.env
+.env.local
+.env.*.local
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# ========================
+# ⚙️ Backend (server/)
+# ========================
+server/dist/
+server/build/
+server/tmp/
+server/temp/
+server/.env
+server/.env.local
+server/.tsbuildinfo
+
+# Ignore generated files
+server/**/*.js.map
+
+# ========================
+# 💻 Frontend (client/)
+# ========================
+client/node_modules/
+client/build/
+client/.env
+client/.env.local
+client/.eslintcache
+client/.tsbuildinfo
+
+# Ignore coverage & reports
+client/coverage/
+client/*.log
+
+# ========================
+# 🧠 IDE / OS files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+desktop.ini
