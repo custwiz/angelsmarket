@@ -26,10 +26,8 @@ server/**/*.js.map
 # ========================
 client/node_modules/
 client/build/
-client/.env
-client/.env.local
-client/.eslintcache
-client/.tsbuildinfo
+
+
 
 # Ignore coverage & reports
 client/coverage/
