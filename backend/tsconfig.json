@@ -20,10 +20,10 @@
     "rootDir": "./",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./server/*"]
+      "@/*": ["serverv3/*"]
     }
   },
-  "include": ["server"],
+  "include": ["serverv3"],
   "exclude": ["node_modules", "dist"]
 }
 

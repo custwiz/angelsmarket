@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch --clear-screen=false server/index.ts",
-    "start": "node --loader tsx server/index.ts",
-    "init:mongo": "tsx server/scripts/initMongo.ts"
+    "start": "node --loader tsx serverv3/index.ts",
+    "init:mongo": "tsx server/scriptsv3/initMongo.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
