@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch --clear-screen=false server/index.ts",
-    "start": "node --import tsx serverv3/index.ts",
+    "start": "node --loader tsx serverv3/index.ts",
     "init:mongo": "tsx serverv3/scripts/initMongo.ts"
   },
   "dependencies": {
@@ -21,7 +21,7 @@
     "@types/express": "^5.0.3",
     "@types/http-errors": "^2.0.5",
     "@types/node": "^22.5.5",
-    "tsx": "^4.20.6",
+    "tsx": "^4.20.5",
     "typescript": "^5.5.3"
   }
 }

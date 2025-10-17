@@ -3,16 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
-  "start": "vite --port 3008",
-  "dev": "vite --port 3008",
-  "build": "vite build",
-  "build:dev": "vite build --mode development",
-  "lint": "eslint .",
-  "preview": "vite preview --port 3008"
-},
-
+    "start": "vite --port 3008",
+    "dev": "vite --port 3008",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "lint": "eslint .",
+    "preview": "vite preview --port 3008"
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -45,6 +43,7 @@
     "@rollup/rollup-darwin-arm64": "^4.45.1",
     "@supabase/supabase-js": "^2.52.0",
     "@tanstack/react-query": "^5.56.2",
+    "axios": "^1.12.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
@@ -89,4 +88,3 @@
     "vite": "^5.4.1"
   }
 }
-
