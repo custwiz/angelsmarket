@@ -6,10 +6,11 @@ import productsRouter from "./routes/products";
 import addressesRouter from "./routes/addresses";
 import { ensureMongoConnection } from "./utils/mongo";
 import { seedProductsFromStaticData } from "./utils/seed";
-
+import morgan from "morgan";
 dotenv.config();
 
 const app = express();
+app.use(morgan("dev"));
 const PORT = process.env.PORT || 4000;
 // const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 const CLIENT_URL = process.env.CLIENT_URL || "https://shop.angelsonearthhub.com";
