@@ -18,7 +18,7 @@ const CLIENT_URL = process.env.CLIENT_URL || "https://shop.angelsonearthhub.com"
 app.use(cors({ origin: CLIENT_URL, credentials: true }));
 app.use(express.json({ limit: "5mb" }));
 
-app.get("/health", (_req, res) => {
+app.get("/api/health", (_req, res) => {
   res.json({ status: "ok" });
 });
 
