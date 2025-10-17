@@ -8,7 +8,7 @@ export const ensureMongoConnection = async () => {
   }
 
   if (!connectionPromise) {
-    const uri = process.env.MONGODB_URI;
+    const uri = "mongodb+srv://connect_db_user:bl2JT2Wc3Bacj5Lb@cluster0.6pjokiu.mongodb.net/";
 
     if (!uri) {
       throw new Error("MONGODB_URI environment variable is not set");
