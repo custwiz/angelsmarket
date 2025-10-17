@@ -11,7 +11,7 @@ dotenv.config();
 
 const app = express();
 app.use(morgan("dev"));
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 6000;
 // const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 const CLIENT_URL = process.env.CLIENT_URL || "https://shop.angelsonearthhub.com";
 
