@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch --clear-screen=false server/index.ts",
+    "dev": "tsx watch --clear-screen=false serverv3/index.ts",
     "start": "node  --import tsx serverv3/index.ts",
     "init:mongo": "tsx serverv3/scripts/initMongo.ts"
   },
